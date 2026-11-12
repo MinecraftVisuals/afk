@@ -1,0 +1,13 @@
+# Radius (blocks) around the main End island centre (0, 0)
+radius: 600
+
+# Seconds between shards while inside the radius
+interval-seconds: 60
+
+# Action bar text. %s = seconds left
+message: "<light_purple>Next Shard In <white>%ss"
+
+# Commands run from console when a shard is due. %player% = player name.
+# REPLACE this with the command your shard plugin uses.
+reward-commands:
+  - "shard give %player% 1"
