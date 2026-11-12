@@ -1,0 +1,13 @@
+name: AfkShard
+version: '1.0.0'
+main: dev.afkshard.AfkShardPlugin
+api-version: '1.21.11'
+description: End island shard countdown and /afk teleport
+commands:
+  afk:
+    description: Teleport to the End AFK spot
+    usage: /afk
+    permission: afkshard.afk
+permissions:
+  afkshard.afk:
+    default: true
